@@ -1,0 +1,578 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;;
+}
+a{
+    text-decoration: none;
+}
+/* ------------offer_area---------- */
+.offer_area{
+    width: 100%;
+    height: 57px;
+    background-color: black;
+    color: white;
+}
+.offer_area p{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+    padding-top: 12px;
+}
+/* -- ------------manu_area---------- -- */
+.manu_area{
+    width: 100%;
+    height: 92px;
+    background-color: #BA797D;
+    color: white;
+    display: flex;
+}
+.logo_area{
+    width: 20%;
+    
+}
+.logo_area img{
+    width: 70%;
+    padding-left: 63px;
+    padding-top: 17px;
+}
+.bar_area{
+    width: 60%;
+
+}
+.bar_area ul{
+    display: flex;
+    padding-left: 141px;
+    padding-top: 30px;
+}
+.bar_area ul li{
+    list-style-type: none;
+    padding-right: 26px;
+}
+.bar_area ul li a{
+    font-size: 20px;
+    color: white;
+}
+.bar_area ul li a:hover{
+    border-bottom: 2px solid white;
+}
+.icon_area{
+    width: 20%;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-left: 190px;
+}
+.icon_area i{
+    padding-right: 20px;
+}
+/* -- -- ------------hero_area---------- -- -- */
+/* ======================================== */
+
+.bubblas img{
+    width: 70px;
+    animation: bubble 6s linear infinite;
+}
+.bubblas{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    bottom: -40px;
+}
+@keyframes bubble{
+    0%{
+        transform: translateY(0);
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    70%{
+        opacity: 1;
+    }
+    100%{
+         transform: translateY(-80vh);
+        opacity: 0;
+    }
+
+}
+
+.bubblas img:nth-child(1){
+    animation-delay: 2s;
+    width: 22px;
+}
+.bubblas img:nth-child(2){
+    animation-delay: 1s;
+    width: 40px;
+    
+}
+.bubblas img:nth-child(3){
+    animation-delay: 2.5s;
+    width: 50px;
+}
+.bubblas img:nth-child(4){
+    animation-delay: 4.5s;
+    width: 30px;
+}
+.bubblas img:nth-child(5){
+    animation-delay: 3s;
+    width: 47px;
+}
+.bubblas img:nth-child(6){
+    animation-delay: 5.9s;
+    width: 35px;
+}
+.bubblas img:nth-child(7){
+    animation-delay: 7s;
+    width: 23px;
+}
+.bubblas img:nth-child(8){
+    animation-delay: 2.5s;
+    width: 28px;
+}
+.bubblas img:nth-child(9){
+    animation-delay: 4.5s;
+    width: 25px;
+}
+.bubblas img:nth-child(10){
+    animation-delay: 3s;
+     width: 45px;
+}
+.bubblas img:nth-child(11){
+    animation-delay: 5.9s;
+    width: 15px;
+}
+.bubblas img:nth-child(12){
+    animation-delay: 7s;
+    width: 31px;
+
+}
+/* ======================================== */
+.hero_area{
+    background-color: #D8B4B6;
+    width: 100%;
+    height: 570px;
+}
+.lat{
+    float: left;
+    width: 50%;
+    padding-left:110px;
+    padding-top: 198px;
+    
+}
+.lat h1{
+    font-size: 91px;
+    font-family: 'Bonheur Royale', cursive;
+}
+.lat h2{
+    padding: 47px 0px;
+    font-style: italic;
+    font-size: 30px;
+    font-weight: 350;
+}
+.lat button{
+    width: 229px;
+    height: 55px;
+    border-radius: 30px;
+    border: 0px solid #BA797D;
+    background: #BA797D;
+    font-size: 28px;
+    font-weight: 400;
+    color: white;
+    padding: 4px;
+}
+.pic{
+    float: left;
+    width: 50%;
+}
+.pic img{
+    width: 100%;
+}
+/* -- -- ------------hero2_area---------- -- -- */
+.hero2_area{
+    width: 100%;
+    height: 578px;
+}
+.hh{
+    width: 1256px;
+    margin: auto;
+}
+.revid{
+    margin: auto;
+}
+.revid h1{
+    padding: 38px 0px;
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Bonheur Royale', cursive;
+}
+.revid h2{
+    text-align: center;
+    font-weight: 200;
+}
+/* -- -- -- ------------Card_area---------- -- -- -- */
+.card_area{
+    display: flex;
+}
+.card{
+    margin: auto;
+    padding-top: 20px;
+}
+.card p{
+    width: 211px;
+    text-align: center;
+    
+}
+/* ------------revid2_area---------- */
+.revid2_area{
+    width: 100%;
+    height: 700px;
+    background: black;
+}
+.revid2_area h1{
+    padding: 38px 0px;
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Bonheur Royale', cursive;
+    color: white;
+}
+.hh1{
+    display: flex;
+    width: 76%;
+    margin: auto;
+}
+.card1{
+    margin-right: 20px;
+}
+.hh1 .card1 img{
+    width: 202px;
+}
+.card1 p{
+    color: white;
+    width: 220px;
+    text-align: center;
+}
+.card1 h2{
+    color: white;
+    text-align: center; 
+    padding: 20px 0px 0px 0px;
+}
+.rate{
+    display: flex;
+    width: 175px;
+    margin: auto;
+    padding: 20px 0px;
+}
+.rate p{
+    padding: 3px 1px;
+    color: #9E6700;
+    font-size: 17px;
+    
+}
+.hh1 .card1 .rate img{
+    width: 104px;
+    height: 20px;
+}
+.card1 button{
+    width: 202px;
+    height: 35px;
+    border: 1px solid #BA797D;
+    background: #BA797D;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.vid{
+    width: 100%;
+    height: 500px;
+    background-color: #BA797D;
+    display: flex;
+}
+.vv{
+    width: 60%;
+    padding: 87px 0px 0px 166px;
+}
+.vv video{
+    width: 650px;
+    height: 360px;
+}
+.vi1{
+    width: 30%;
+}
+.vi1 p{
+    font-size: 60px;
+    text-align: center;
+    padding-top: 76px;
+    font-weight: bolder;
+    color: white;
+}
+
+.vi1 button{    
+    width: 231px;
+    height: 68px;
+    border: 1px solid #BA797D;
+    background: #FFFFFF;
+    border-radius: 41px;
+    color: #BA797D;
+    font-weight: bold;
+    font-size: 33px;
+    margin: 30px 117px;
+} 
+/* ------------hero3_area---------- */
+.hero3{
+    width: 100%;
+    height: 500px;
+}
+.hero4{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+.hero4 h1{
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Bonheur Royale', cursive;
+}
+.fix{
+    display: flex;
+}
+.llll{
+    width: 50%;
+    text-align: justify;
+}
+.ip{
+    padding-left: 150px;
+}
+.ip img{
+    height: 300px;
+}
+
+/* ------------hero5_area---------- */
+.hero5_area{
+    width: 100%;
+    height: 596px;
+    background-color: #BA797D;
+}
+.hero5_area h1{
+    text-align: center;
+    font-size: 48px;
+    color: #fff;
+    font-family: Poppins;
+    line-height: 1.4em;
+    padding: 25px 0px 0px 0px;
+}
+.img_h5{
+    display: flex;
+    text-align: center;
+    width: 90%;
+}
+.vv1{
+    width: 60%;
+    padding: 51px 0px 0px 166px;
+}
+.vv1 img{
+    width: 576px;
+    height: 402px;
+}
+.lakh{
+    width: 40%;
+    text-align: left;
+}
+.lakh p{
+    font-size: 26px;
+    text-align: left;
+    padding-top: 157px;
+    padding-left: 8px;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.lakh button{
+    width: 231px;
+    height: 68px;
+    border: 1px solid #BA797D;
+    background: #FFFFFF;
+    border-radius: 41px;
+    color: #BA797D;
+    font-weight: bold;
+    font-size: 33px;
+    margin: 30px 8px;
+}
+/* -- ------------hero6_area---------- -- */
+.vv2{
+    width: 78%;
+    margin: auto;
+}
+.hreo6_area{
+    text-align: center;
+    width: 100%;
+    height: 600px;
+}
+.hreo6_area h1{
+    padding: 50px 0px;
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Bonheur Royale', cursive;
+}
+.hreo6_area h2{
+    font-size: 21px;
+    font-weight: 300;
+}
+.cccad{
+    display: flex;
+    
+    
+}
+.card3{
+    padding-bottom: 30px;
+}
+/* -- ------------hero7_area---------- -- */
+.vv3{
+    width: 78%;
+    margin: auto;
+}
+.hero7_area{
+    text-align: center;
+    width: 100%;
+    height: 950px;
+}
+.hero7_area h1{
+    padding: 50px 0px;
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Bonheur Royale', cursive;
+}
+.cdcd{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+.card4 h2{
+    padding: 20px 0px;
+}
+.card4 p{
+    width:90%;
+    margin: auto;
+    text-align: left;
+    height: 230px;
+    background: #FFFFFF;
+    font-size: 18px;
+}
+.card4 button{
+    width: 200px;
+    height: 40px;
+    border: 1px solid #BA797D;
+    color: #FFFFFF;
+    border-radius: 41px;
+    background: #BA797D;
+    font-weight: bold;
+    font-size: 23px;
+    margin: 30px 117px;
+}
+/* ------------footer1_area---------- */
+.footer1_area{
+    width: 100%;
+    height: 480px;
+    background: #F6F6F6;
+}
+.foood{
+    padding-top:30px ;
+    width: 80%;
+    height: 200px;
+    background: #F6F6F6;
+    margin: auto;
+    display: flex;
+}
+.st{
+    width: 50%;
+}
+.st h4{
+    padding-bottom: 20px;
+    color: #393838;
+}
+.st .manu1 ul{
+    display: flex;
+}
+
+.st .manu1 ul li{
+    list-style-type: none;  
+}
+.st .manu1 ul li a:hover{
+    border-bottom: 2px solid rgb(70, 70, 70);
+}
+.st .manu1 ul li a{
+    color: #5D5B5B;
+}
+.lis{
+    padding-left: 30px;
+}
+.nd{
+    width: 50%;
+}
+.nd h1{
+    font-size: 57px;
+    font-family: 'Bonheur Royale', cursive;
+}
+.inp{
+    display: flex;
+}
+.nd input{
+    width: 380px;
+    height: 40px;
+    border: 1px solid rgb(255, 150, 52);
+    padding-left: 20px;
+}
+.nd button{
+    width: 105px;
+    background: #252525;
+    color: white;
+    border: 1px solid #333333 ;
+}
+.inp{
+    margin-top: 30px;
+}
+.sel{
+    font-size: 20px;
+    height: 100px;
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+    display: flex;
+}
+select{
+    font-size: 20px;
+    padding: 9px 15px;
+    background: white;
+    margin-bottom: 10px;
+}
+.selst{
+    width: 50%;
+}
+.seled{
+    width: 50%;
+    text-align: right;
+    font-size: 30px;
+}
+.seled i{
+    padding-left: 20px;
+}
+.seled h5{
+    font-size: 16px;
+    padding-top: 20px;
+}
+.last{
+    width: 100%;
+    text-align: center;
+    background: #F6F6F6;
+}
+.last select{
+    font-size: 20px;
+    padding: 9px 15px;
+    background: white;
+    margin-bottom: 10px;
+    background-color: #F6F6F6;
+    border: 1px solid #F6F6F6;
+
+}
